@@ -4,6 +4,11 @@
 [![License](https://img.shields.io/cocoapods/l/SSCustomSideMenu.svg?style=flat)](https://cocoapods.org/pods/SSCustomSideMenu)
 [![Platform](https://img.shields.io/cocoapods/p/SSCustomSideMenu.svg?style=flat)](https://cocoapods.org/pods/SSCustomSideMenu)
 
+![Alt text](http://files.simformsolutions.com.s3.amazonaws.com/simformscreen/screencast_2020-05-06_18-39-40.gif)
+![Alt text](http://files.simformsolutions.com.s3.amazonaws.com/simformscreen/screencast_2020-05-06_18-42-41.gif)
+![Alt text](http://files.simformsolutions.com.s3.amazonaws.com/simformscreen/screencast_2020-05-06_18-52-40.gif)
+
+
 ## Features
   - Highly customizable
   - Multiple options of animations

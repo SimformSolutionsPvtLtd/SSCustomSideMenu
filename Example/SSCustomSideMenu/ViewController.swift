@@ -20,7 +20,7 @@ class ViewController: SSSideMenuContainerViewController {
     
     private func configureSideMenu() {
         
-        self.menuTable.backgroundColor = .white
+        self.menuTable.backgroundColor = .clear
         menuTable.separatorStyle = .none
         menuTable.rowHeight = 60
         menuTable.showsHorizontalScrollIndicator = false
