@@ -1,0 +1,6 @@
+framework module SSCustomSideMenu {
+  umbrella header "SSCustomSideMenu-umbrella.h"
+
+  export *
+  module * { export * }
+}

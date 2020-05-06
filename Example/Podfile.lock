@@ -1,0 +1,16 @@
+PODS:
+  - SSCustomSideMenu (0.1.0)
+
+DEPENDENCIES:
+  - SSCustomSideMenu (from `../`)
+
+EXTERNAL SOURCES:
+  SSCustomSideMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSCustomSideMenu: 006f3654e428bab4ca94662adf15b910f4ff1be1
+
+PODFILE CHECKSUM: bf30120adbfd86343225efcbf6a2c2bb3186a9db
+
+COCOAPODS: 1.9.1
