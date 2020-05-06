@@ -114,10 +114,6 @@
     - Manually open or close side menu :
     
             SSSideMenuControls.openOrCloseSideMenu()
-
-## Author
-
--  kunjalsoni-simformsolutions, kunjal.s@simformsolutions.com
     
 #  Contribute
 -   We would love you for the contribution to SSCustomSideMenu, check the LICENSE file for more info.
