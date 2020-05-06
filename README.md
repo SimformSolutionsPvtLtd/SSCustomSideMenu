@@ -7,6 +7,7 @@
 ![Alt text](http://files.simformsolutions.com.s3.amazonaws.com/simformscreen/screencast_2020-05-06_18-39-40.gif)
 ![Alt text](http://files.simformsolutions.com.s3.amazonaws.com/simformscreen/screencast_2020-05-06_18-42-41.gif)
 ![Alt text](http://files.simformsolutions.com.s3.amazonaws.com/simformscreen/screencast_2020-05-06_18-52-40.gif)
+![Alt text](http://files.simformsolutions.com.s3.amazonaws.com/simformscreen/screencast_2020-05-06_18-59-57.gif)
 
 
 ## Features
