@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_versions = '5.0'
 
-  s.source_files = 'SSCustomSideMenu/Classes/**/*'
+  s.source_files = 'Sources/SSCustomSideMenu/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SSCustomSideMenu' => ['SSCustomSideMenu/Assets/*.png']
