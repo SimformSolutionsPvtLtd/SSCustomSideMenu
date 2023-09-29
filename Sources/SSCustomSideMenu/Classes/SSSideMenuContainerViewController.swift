@@ -47,6 +47,35 @@ open class SSSideMenuContainerViewController: UIViewController {
         }
     }
     
+    open override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        super.viewWillTransition(to: size, with: coordinator)
+        if isExpanded {
+            tapGesture?.isEnabled = false
+            UIView.animate(withDuration: ssMenuConfig.animationDuration, delay: 0, usingSpringWithDamping: ssMenuConfig.damping, initialSpringVelocity: 0, options: .curveEaseInOut, animations: { [weak self] in
+                guard let self else { return }
+                performCloseAnimation()
+            }) { [weak self] (_) in
+                guard let self else { return }
+                switch ssMenuConfig.animationType {
+                case .compress(_):
+                    load(self.ssMenuConfig.homeController, on: self.contentContainerView)
+                default:
+                    break
+                }
+                imageView.removeFromSuperview()
+                if let selectedIndexPath  = ssMenuConfig.menuTable.selectedIndexPath?.row {
+                    didSelectMenuOption(menuOption: selectedIndexPath)
+                }
+            }
+        }
+        self.ssMenuConfig.menuWidth = UIScreen.main.bounds.width / 2
+        coordinator.animate(alongsideTransition: { [weak self] _ in
+            guard let self else { return }
+            contentContainerView.frame = CGRect(x: 0, y: 0, width: view.bounds.size.width, height: view.bounds.size.height)
+            imageView.frame = contentContainerView.frame
+            }, completion: nil)
+    }
+    
     // MARK: -
     // MARK: - Class Functions
     
